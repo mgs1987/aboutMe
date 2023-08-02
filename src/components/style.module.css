@@ -1,0 +1,168 @@
+.mainContainer {
+    background-color: rgb(230, 186, 238);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+.container {
+    background-color: rgb(230, 186, 238);
+    border-radius: 7px;
+    width: 98%;
+    height: 60px;
+    margin: 1rem;
+
+
+}
+
+.itemOne {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    font-size: medium;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h3 {
+    margin: 1.5rem;
+}
+
+.itemTwo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid whitesmoke;
+    width: 90%;
+    padding: 2.5rem;
+    border-radius: 8px;
+    margin: 2rem;
+    background-color: whitesmoke;
+    margin: 8rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.itemThree {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid whitesmoke;
+    width: 60%;
+    border-radius: 8px;
+    margin: 2rem;
+    background-color: whitesmoke;
+    margin: 8rem;
+}
+
+.itemFour {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid whitesmoke;
+    width: 60%;
+    border-radius: 8px;
+    margin: 2rem;
+    background-color: whitesmoke;
+    margin: 8rem;
+}
+
+.homeContainer {
+    position: relative;
+    background-image: url("../Images/pink.jpeg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img {
+    border-radius: 50%;
+    height: 170px;
+    width: auto;
+    margin: 1rem;
+    border-radius: 70%;
+
+}
+
+.titleCard {
+    color: rgb(230, 186, 238);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+p {
+    color: grey;
+}
+
+ul {
+    color: grey;
+}
+
+.projects {
+    background-image: url("../Images/pink.jpeg");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cardContainer {
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    width: 80%;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.cardGroup {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cardGroup1 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.card1 {
+    border: 1px solid rgb(230, 186, 238);
+    width: 80%;
+    border-radius: 8px;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.card2 {
+    border: 1px solid rgb(230, 186, 238);
+    width: 80%;
+    border-radius: 8px;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.card3 {
+    border: 1px solid rgb(230, 186, 238);
+    width: 80%;
+    border-radius: 8px;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.card4 {
+    border: 1px solid rgb(230, 186, 238);
+    width: 80%;
+    border-radius: 8px;
+    margin: 2rem;
+    padding: 1rem;
+}
