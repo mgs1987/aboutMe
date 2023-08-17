@@ -9,7 +9,7 @@ export const Home = () => {
           <img src={me} alt="me" className={style.img} />
         </div>
 
-        <div style={{ margin: "2rem" }}>
+        <div className={style.descriptionContainer}>
           <h1 className={style.titleCard}>About Me</h1>
           <h2 style={{ color: " rgb(230, 186, 238)", fontSize: "20px" }}>
             As a Full-Stack Developer . . .
@@ -30,10 +30,13 @@ export const Home = () => {
             detail and design sensibility drive me to create interfaces that
             captivate users and provide a seamless user experience
           </p>
-          <h2 style={{ color: " rgb(230, 186, 238)", fontSize: "20px" }}>
-            What defines me ?
-          </h2>
-          <ul style={{ textAlign: "justify", fontSize: "16px" }}>
+          <h2 className={style.subTitleCard}>What defines me ?</h2>
+          <ul
+            style={{
+              textAlign: "justify",
+              fontSize: "16px",
+            }}
+          >
             <li>
               My Charismatic and Positive attitude. I firmly believe in
               spreading positivity and creating a warm and welcoming work
@@ -45,9 +48,7 @@ export const Home = () => {
               knowledge and skills to grow both personally and professionally.
             </li>
           </ul>
-          <h2 style={{ color: "rgb(230, 186, 238)", fontSize: "20px" }}>
-            Background
-          </h2>
+          <h2 className={style.subTitleCard}>Background</h2>
           <p style={{ textAlign: "justify", fontSize: "16px" }}>
             Before embarking on my journey as a developer, I worked in the
             fields of health and food. In that role, I led a team of seven

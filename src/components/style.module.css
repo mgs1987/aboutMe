@@ -1,3 +1,4 @@
+
 .mainContainer {
     background-color: rgb(230, 186, 238);
     height: 100px;
@@ -5,19 +6,10 @@
     flex-direction: column;
     justify-content: flex-end;
     width: 100%;
-
-}
-@media screen and  (max-width: 390px){
-    .mainContainer {
-        height:auto;
-        justify-content: center;
-        padding:1rem;
-        font-size: 1px;
-    }
-    .itemOne h3{
-        font-size: 11.7px;
-    }
     
+}
+.descriptionContainer {
+    margin:2rem;
 }
 .container {
     background-color: rgb(230, 186, 238);
@@ -25,8 +17,6 @@
     width: 98%;
     height: 60px;
     margin: 1rem;
-
-
 }
 
 .itemOne {
@@ -36,7 +26,7 @@
     font-size: medium;
     font-style: oblique;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    
 }
 
 h3 {
@@ -54,7 +44,7 @@ h3 {
     margin: 8rem;
     display: flex;
     flex-direction: row;
-
+    
 }
 
 .itemThree {
@@ -92,9 +82,17 @@ h3 {
     
 }
 .cardImage {
-   height: 20rem;
-   margin: 1rem;
-       
+    height: 20rem;
+    margin: 1rem;
+    
+}
+.img {
+    border-radius: 50%;
+    height: 170px;
+    width: auto;
+    margin: 1rem;
+    border-radius: 70%;
+    
 }
 @media screen and (width: 768px ) {
     .homeContainer {
@@ -112,17 +110,6 @@ h3 {
         height:12rem;
         margin:0%;
     }
-   
-
-
-}
-.img {
-    border-radius: 50%;
-    height: 170px;
-    width: auto;
-    margin: 1rem;
-    border-radius: 70%;
-
 }
 
 .titleCard {
@@ -130,7 +117,11 @@ h3 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
 }
-
+.subTitleCard {
+    color: rgb(230, 186, 238);
+    font-size: 20px;
+       
+}
 p {
     color: grey;
 }
@@ -147,7 +138,7 @@ ul {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-
+    
 }
 
 .cardContainer {
@@ -223,4 +214,38 @@ ul {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+}
+@media screen and (max-width: 390px) {
+    .mainContainer {
+        height: auto;
+        justify-content: center;
+        padding: 0.5rem;
+        font-size: 1px;
+    }
+
+    .itemOne h3 {
+        font-size: 12px;
+    }
+    .itemTwo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        margin:2.5rem;
+    }
+
+    .titleCard {
+        font-size: 29px;
+    }
+    .subTitleCard {
+        font-size: 18px;
+    }
+    .descriptionContainer {
+        margin:0.2rem;
+    }
+    .img {
+       justify-content: center;
+       height:120px;
+    }
+   
 }
