@@ -45,7 +45,7 @@ export const Home = () => {
               knowledge and skills to grow both personally and professionally.
             </li>
           </ul>
-          <h2 style={{ color: " rgb(230, 186, 238)", fontSize: "20px" }}>
+          <h2 style={{ color: "rgb(230, 186, 238)", fontSize: "20px" }}>
             Background
           </h2>
           <p style={{ textAlign: "justify", fontSize: "16px" }}>

@@ -7,7 +7,18 @@
     width: 100%;
 
 }
-
+@media screen and  (max-width: 390px){
+    .mainContainer {
+        height:auto;
+        justify-content: center;
+        padding:1rem;
+        font-size: 1px;
+    }
+    .itemOne h3{
+        font-size: 11.7px;
+    }
+    
+}
 .container {
     background-color: rgb(230, 186, 238);
     border-radius: 7px;
@@ -74,7 +85,37 @@ h3 {
     flex-direction: column;
     justify-content: center;
 }
+.cardGroupContainer {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    
+}
+.cardImage {
+   height: 20rem;
+   margin: 1rem;
+       
+}
+@media screen and (width: 768px ) {
+    .homeContainer {
+       width: auto;
+    }
+    .itemTwo {
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardContainer {
+        width: 60%;
+    }
+    .cardImage {
+        height:12rem;
+        margin:0%;
+    }
+   
 
+
+}
 .img {
     border-radius: 50%;
     height: 170px;
@@ -105,64 +146,81 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
 .cardContainer {
     border: 1px solid whitesmoke;
     border-radius: 8px;
-    width: 80%;
+    width: 85%;
     margin: 2rem;
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; */
     background-color: whitesmoke;
+    
 }
 
 .cardGroup {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 2rem;
 }
 
 .cardGroup1 {
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 2rem;
 }
 
 .card1 {
     border: 1px solid rgb(230, 186, 238);
     width: 80%;
     border-radius: 8px;
-    margin: 2rem;
+    /* margin: 2rem; */
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card2 {
     border: 1px solid rgb(230, 186, 238);
     width: 80%;
     border-radius: 8px;
-    margin: 2rem;
+    /* margin: 2rem; */
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card3 {
     border: 1px solid rgb(230, 186, 238);
     width: 80%;
     border-radius: 8px;
-    margin: 2rem;
+    /* margin: 2rem; */
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card4 {
     border: 1px solid rgb(230, 186, 238);
     width: 80%;
     border-radius: 8px;
-    margin: 2rem;
+    /* margin: 2rem; */
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }

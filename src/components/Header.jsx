@@ -32,12 +32,12 @@ export const Header = () => {
           </h3>
           <h3>
             <Link to="https://github.com/mgs1987">
-              <AiFillGithub style={{ color: "grey", fontSize: "3rem" }} />
+              <AiFillGithub style={{ color: "grey", fontSize: "2rem" }} />
             </Link>
           </h3>
           <h3>
             <Link to="https://www.linkedin.com/in/mercedesgdes/">
-              <BsLinkedin style={{ color: "grey", fontSize: "3rem" }} />
+              <BsLinkedin style={{ color: "grey", fontSize: "2rem" }} />
             </Link>
           </h3>
         </div>

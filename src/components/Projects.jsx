@@ -93,130 +93,122 @@ export const Projects = () => {
             </div>
           </div>
           <h2 className={style.titleCard}>Projects</h2>
-          <div className={style.cardGroup}>
-            <div className={style.card1}>
-              <img
-                src={countries}
-                alt="countries"
-                style={{ height: "20rem", margin: "1rem" }}
-              />
-              <h2 style={{ color: " rgb(230, 186, 238)" }}>
-                Henry Countries Project
-              </h2>
-              <p
-                style={{
-                  textAlign: "justify",
-                  padding: "1rem",
-                  fontSize: "17px",
-                }}
-              >
-                My first Web Application. Filters, orders, search bar, create
-                form. Lovely style made 100% CSS. Info from API. Technologies:
-                React, Redux, CSS, Express, HTML, Postgres, Sequelize, NodeJS,
-                Javascript, Git{" "}
-                <span style={{ color: "pink" }}>Contribution here:</span>
-                Backend and Frontend. Individual Project.
-              </p>
-              <Link
-                to="https://github.com/mgs1987"
-                style={{ color: "violet", fontSize: "15px" }}
-              >
-                Check CODE here
-              </Link>
+          <div className={style.cardGroupContainer}>
+            <div className={style.cardGroup}>
+              <div className={style.card1}>
+                <img
+                  src={countries}
+                  alt="countries"
+                  className={style.cardImage}
+                />
+                <h2 style={{ color: " rgb(230, 186, 238)" }}>
+                  Henry Countries Project
+                </h2>
+                <p
+                  style={{
+                    textAlign: "justify",
+                    padding: "1rem",
+                    fontSize: "17px",
+                  }}
+                >
+                  My first Web Application. Filters, orders, search bar, create
+                  form. Lovely style made 100% CSS. Info from API. Technologies:
+                  React, Redux, CSS, Express, HTML, Postgres, Sequelize, NodeJS,
+                  Javascript, Git{" "}
+                  <span style={{ color: "pink" }}>Contribution here:</span>
+                  Backend and Frontend. Individual Project.
+                </p>
+                <Link
+                  to="https://github.com/mgs1987"
+                  style={{ color: "violet", fontSize: "15px" }}
+                >
+                  Check CODE here
+                </Link>
+              </div>
+              <div className={style.card2}>
+                <img src={games} alt="games" className={style.cardImage} />
+                <h2 style={{ color: " rgb(230, 186, 238)" }}>
+                  Board Games: "Bodu Gemu"
+                </h2>
+                <p
+                  style={{
+                    textAlign: "justify",
+                    padding: "1rem",
+                    fontSize: "17px",
+                  }}
+                >
+                  Board Games Web Application. Filters, orders, search bar,
+                  admin dashboard, payment platform Paypal & Mercado Pago, cart,
+                  Firebase authentication. Lovely style made with CSS, Chakra
+                  UI, Ant Design. Technologies: React, Redux, Express, HTML,
+                  Postgres, Sequelize, NodeJS, Javascript, Git.{" "}
+                  <span style={{ color: "pink" }}>Contribution here:</span>{" "}
+                  Frontend: Design in Figma, Dashboard Admin, Firebase
+                  authentication
+                </p>
+                <Link
+                  to="https://front-project-board-games.vercel.app/"
+                  style={{ color: "violet", fontSize: "15px" }}
+                >
+                  Check deploy here!
+                </Link>
+              </div>
             </div>
-            <div className={style.card2}>
-              <img
-                src={games}
-                alt="games"
-                style={{ height: "20rem", margin: "1rem" }}
-              />
-              <h2 style={{ color: " rgb(230, 186, 238)" }}>
-                Board Games: "Bodu Gemu"
-              </h2>
-              <p
-                style={{
-                  textAlign: "justify",
-                  padding: "1rem",
-                  fontSize: "17px",
-                }}
-              >
-                Board Games Web Application. Filters, orders, search bar, admin
-                dashboard, payment platform Paypal & Mercado Pago, cart,
-                Firebase authentication. Lovely style made with CSS, Chakra UI,
-                Ant Design. Technologies: React, Redux, Express, HTML, Postgres,
-                Sequelize, NodeJS, Javascript, Git.{" "}
-                <span style={{ color: "pink" }}>Contribution here:</span>{" "}
-                Frontend: Design in Figma, Dashboard Admin, Firebase
-                authentication
-              </p>
-              <Link
-                to="https://front-project-board-games.vercel.app/"
-                style={{ color: "violet", fontSize: "15px" }}
-              >
-                Check deploy here!
-              </Link>
-            </div>
-          </div>
-          <div className={style.cardGroup1}>
-            <div className={style.card3}>
-              <img
-                src={ibera}
-                alt="ibera"
-                style={{ height: "20rem", margin: "1rem" }}
-              />
-              <h2 style={{ color: " rgb(230, 186, 238)" }}>
-                Ibera Hotels Experience
-              </h2>
-              <p
-                style={{
-                  textAlign: "justify",
-                  padding: "1rem",
-                  fontSize: "17px",
-                }}
-              >
-                Ibera Hotels Web Application. Filters, orders, search bar, admin
-                dashboard, payment platform, cart, Auth0 authentication. Lovely
-                style made with CSS, Chakra UI. Technologies: React, Redux,
-                Express, HTML, Postgres, Sequelize, NodeJS, Javascript, Git.
-                <span style={{ color: "pink" }}> Contribution here:</span>{" "}
-                Frontend: Design in Figma, Home styles, logo
-              </p>
-              <Link
-                to="https://github.com/mgs1987"
-                style={{ color: "violet", fontSize: "15px" }}
-              >
-                Check CODE here
-              </Link>
-            </div>
-            <div className={style.card4}>
-              <img
-                src={cliche}
-                alt="cliche"
-                style={{ height: "20rem", margin: "1rem" }}
-              />
-              <h2 style={{ color: " rgb(230, 186, 238)" }}>Cliché Store</h2>
-              <h2>==STILL IN PROGRESS==</h2>
-              <p
-                style={{
-                  textAlign: "justify",
-                  padding: "1rem",
-                  fontSize: "17px",
-                }}
-              >
-                Cliche Store Web Application. Filters, orders, search bar, admin
-                dashboard, payment platform Paypal, cart, Firebase
-                authentication. Lovely style made with CSS, Ant Design.
-                Technologies: React, Redux, Express, HTML, Postgres, Sequelize,
-                NodeJS, Javascript, Git.{" "}
-                <span style={{ color: "pink" }}>Contribution here:</span>{" "}
-                Frontend: Design in Figma, Home styles, Dashboard Admin, Forms.
-              </p>
-              <Link
-                to="https://github.com/mgs1987"
-                style={{ color: "violet", fontSize: "15px" }}
-              >
-                Check CODE here
-              </Link>
+            <div className={style.cardGroup1}>
+              <div className={style.card3}>
+                <img src={ibera} alt="ibera" className={style.cardImage} />
+                <h2 style={{ color: " rgb(230, 186, 238)" }}>
+                  Ibera Hotels Experience
+                </h2>
+                <p
+                  style={{
+                    textAlign: "justify",
+                    padding: "1rem",
+                    fontSize: "17px",
+                  }}
+                >
+                  Ibera Hotels Web Application. Filters, orders, search bar,
+                  admin dashboard, payment platform, cart, Auth0 authentication.
+                  Lovely style made with CSS, Chakra UI. Technologies: React,
+                  Redux, Express, HTML, Postgres, Sequelize, NodeJS, Javascript,
+                  Git.
+                  <span style={{ color: "pink" }}>Contribution here:</span>
+                  Frontend: Design in Figma, Home styles, logo
+                </p>
+                <Link
+                  to="https://github.com/mgs1987"
+                  style={{ color: "violet", fontSize: "15px" }}
+                >
+                  Check CODE here
+                </Link>
+              </div>
+              <div className={style.card4}>
+                <img src={cliche} alt="cliche" className={style.cardImage} />
+                <h2 style={{ color: " rgb(230, 186, 238)" }}>Cliché Store</h2>
+                <h2>==STILL IN PROGRESS==</h2>
+                <p
+                  style={{
+                    textAlign: "justify",
+                    padding: "1rem",
+                    fontSize: "17px",
+                  }}
+                >
+                  Cliche Store Web Application. Filters, orders, search bar,
+                  admin dashboard, payment platform Paypal, cart, Firebase
+                  authentication. Lovely style made with CSS, Ant Design.
+                  Technologies: React, Redux, Express, HTML, Postgres,
+                  Sequelize, NodeJS, Javascript, Git.{" "}
+                  <span style={{ color: "pink" }}>Contribution here:</span>{" "}
+                  Frontend: Design in Figma, Home styles, Dashboard Admin,
+                  Forms.
+                </p>
+                <Link
+                  to="https://github.com/mgs1987"
+                  style={{ color: "violet", fontSize: "15px" }}
+                >
+                  Check CODE here
+                </Link>
+              </div>
             </div>
           </div>
         </div>

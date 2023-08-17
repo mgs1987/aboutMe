@@ -24,7 +24,7 @@ export const ContactMe = () => {
               fontSize: "20px",
             }}
           >
-            Thank you for time!
+            Thank you for your time!
           </div>
         </div>
       </div>
